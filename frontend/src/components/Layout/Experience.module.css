@@ -1,0 +1,79 @@
+.experience-tab {
+  border: 3px solid #fff;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+.experience-tab h4 {
+  background-color: var(--sec-color);
+  padding: 0.3rem;
+  color: white;
+  font-family: var(--sec-text);
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+  word-spacing: 2px;
+}
+
+.experience-tab img {
+  max-height: 200px;
+  width: 150px;
+}
+
+.links-tab {
+  background-color: #fff;
+  border-radius: 5px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem;
+  width: 23%;
+}
+
+.links-tab a {
+  font-family: var(--sec-text);
+}
+.links-tab a img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.links-tab a:hover {
+  color: crimson;
+}
+
+.links-tab a img:hover {
+  border: 3px solid crimson;
+}
+
+@media (width <= 768px) {
+}
+
+@media (width <= 660px) {
+  .experience-tab {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.5rem;
+  }
+
+  .experience-tab h4 {
+    border-radius: 5px;
+    margin: 0.3rem 0;
+    word-spacing: 1px;
+  }
+  .links-tab {
+    justify-content: space-around;
+    margin-top: 0.3rem;
+    padding: 0.1rem;
+    width: 58%;
+  }
+
+  .links-tab a img {
+    max-width: 20px;
+    max-height: 20px;
+  }
+}

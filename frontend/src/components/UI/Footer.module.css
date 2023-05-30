@@ -1,0 +1,22 @@
+.footer {
+  background-color: var(--pri-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--sec-text);
+  margin-top: 1rem;
+}
+
+.footer ul {
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
+.footer li:hover {
+  border-bottom: 3px solid black;
+}
