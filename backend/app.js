@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 const cors = require("cors");
 dotenv.config();
 const app = express();
-const PORT = 5000;
+const PORT = process.env.SMTP.PORT || 3000;
 
 app.use(cors());
 app.use(express.json({ limit: "25mb" }));

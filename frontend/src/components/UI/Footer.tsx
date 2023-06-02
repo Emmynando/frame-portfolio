@@ -17,7 +17,10 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/chukwuemeka-okezie-2b1335177"
+                target="_blank"
+              >
                 LinkedIn
               </a>
             </li>
